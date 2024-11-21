@@ -17,7 +17,7 @@ Consultar linhas 136 e 156
 		MISO = 19
 		MOSI = 23
 		CS = 21
-		CE = 22 
+		CE = 22
 */
 
 // BIBLIOTECAS
