@@ -46,7 +46,7 @@ RF24 radio1(22, 21, 16000000);  			// VSPI CAN SET SPI SPEED TO 16000000 BY DEFA
 
 unsigned int flag = 0;					// HSPI Variável de sinalização para monitorar a direção
 unsigned int flagv = 0;					// VSPI Variável de sinalização para monitorar a direção
-int ch = 45:						// Variável para armazenar valor de ch
+int ch = 45;						// Variável para armazenar valor de ch
 int ch1 = 45;						// Variável para armazenar valor de ch
 
 ezButton toggleSwitch(33);
@@ -228,9 +228,9 @@ void loop() {
 
 	int state = toggleSwitch.getState();
 
-	if { (state == HIGH) //Adicionei a chave
+	if (state == HIGH)
 		two();
-	} else {
+	else {
 		one();
   	}
 }
