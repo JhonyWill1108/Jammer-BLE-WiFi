@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title> Jammer-BLE-WiFi </title>
+    Jammer-BLE-WiFi
     <meta charset="utf-8">
   </head>
   <body>
